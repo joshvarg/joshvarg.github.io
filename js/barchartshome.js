@@ -19,7 +19,7 @@ $(document).ready(function(){
             pre = data.contents[0].percentile[i].tRx
             prescriptions0.unshift(pre);
         }
-        let colors1 = '#36CAAB';
+        let colors1 = '#1B2F54';
 
         let barChart1 = document.getElementById("chart1").getContext('2d');
 
@@ -75,7 +75,7 @@ $(document).ready(function(){
             pre = data.contents[1].percentile[i].tRx
             prescriptions1.unshift(pre);
         }
-        let colors2 = '#36CAAB';
+        let colors2 = '#1B2F54';
 
         let barChart2 = document.getElementById("chart2").getContext('2d');
 
@@ -132,7 +132,7 @@ $(document).ready(function(){
             pre = data.contents[2].percentile[i].tRx
             prescriptions2.unshift(pre);
         }
-        let colors3 = '#36CAAB';
+        let colors3 = '#1B2F54';
 
         let barChart3 = document.getElementById("chart3").getContext('2d');
 
@@ -190,7 +190,7 @@ $(document).ready(function(){
             pre = data.contents[3].percentile[i].tRx
             prescriptions3.unshift(pre);
         }
-        let colors4 = '#36CAAB';
+        let colors4 = '#1B2F54';
 
         let barChart4 = document.getElementById("chart4").getContext('2d');
 

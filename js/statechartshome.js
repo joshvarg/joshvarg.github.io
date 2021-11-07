@@ -17,12 +17,12 @@
       datasets: [
         {
           label: "nRx",
-          backgroundColor: "pink",
+          backgroundColor: "grey",
           data: [data.targets[0].nRx, data.targets[1].nRx, data.targets[2].nRx, data.targets[3].nRx, data.targets[4].nRx, data.targets[5].nRx, data.targets[6].nRx, data.targets[7].nRx, data.targets[8].nRx, data.targets[9].nRx]
         },
         {
           label: "Projected",
-          backgroundColor: "lightblue",
+          backgroundColor: "navy",
           data: [data.targets[0].proj, data.targets[1].proj, data.targets[2].proj, data.targets[3].proj, data.targets[4].proj, data.targets[5].proj, data.targets[6].proj, data.targets[7].proj, data.targets[8].proj, data.targets[9].proj]
         }
 
