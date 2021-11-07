@@ -20,6 +20,12 @@
       
       <div class="content">
         <h1>Prescription Data Trends and Target Reports</h1>
+        <h4>A target market is, generally, a market performing above average but with significant increases in productivity
+          possible. It is defined here as a state within the 60-80th percentile range of the ratio of new prescriptions to
+          total prescriptions. Then, these new prescription totals are given an "optimal projection" by multiplying the 
+          total prescriptions from that state by the largest ratio of new to total prescriptions ("optimizing" the possible
+          new prescription total.) These hypothetical increases are then graphed vs current numbers and possible increases
+          listed beneath the State's image.</h4>
         <p>
             <div class="container">
                 <div class="row">
@@ -27,35 +33,45 @@
                         <canvas id="myChart" width="400" height="180"></canvas>
                     </div>
                     <div class = "parent">
-                      <span>
+                      <span style="background-color: #F48E20;">
                         <img class = "state" src="images/Washington.png"/>
+                        <p>125 possible Rxs gained</p>
                       </span>
                       <span>
                         <img class = "state" src="images/Florida.png"/>
+                        <p>567 possible Rxs gained</p>
                       </span>
-                      <span>
+                      <span style="background-color: #F48E20;">
                         <img class = "state" src="images/Montana.png"/>
+                        <p>15 possible Rxs gained</p>
                       </span>
                       <span>
                         <img class = "state" src="images/Indiana.png"/>
+                        <p>138 possible Rxs gained</p>
                       </span>
-                      <span>
+                      <span style="background-color: #F48E20;">
                         <img class = "state" src="images/Alaska.png"/>
+                        <p>38 possible Rxs gained</p>
                       </span>
                       <span>
                         <img class = "state" src="images/Nevada.png"/>
+                        <p>88 possible Rxs gained</p>
                       </span>
-                      <span>
+                      <span style="background-color: #F48E20;">
                         <img class = "state" src="images/Oregon.png"/>
+                        <p>23 possible Rxs gained</p>
                       </span>
                       <span>
                         <img class = "state" src="images/Michigan.png"/>
+                        <p>75 possible Rxs gained</p>
                       </span>
-                      <span>
+                      <span style="background-color: #F48E20;">
                         <img class = "state" src="images/Minnesota.png"/>
+                        <p>74 possible Rxs gained</p>
                       </span>
                       <span>
                         <img class = "state" src="images/Kentucky.png"/>
+                        <p>33 possible Rxs gained</p>
                       </span>
                     </div>
                     <style>
@@ -63,6 +79,8 @@
                         display:flex;
                         justify-content: space-evenly;
                         padding-left:30px;
+                        font-size: small;
+                        text-align: center;
                       }
                       .state {
                         display:1;
