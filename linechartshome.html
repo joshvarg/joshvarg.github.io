@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script> 
+    </head>
+    <div class="full-width image-banner" style="background: url(./images/bgimage.jpeg);"></div>
+    <div class="sidenav">
+        <a href="barchartshome.html">Top Doctors</a>
+        <a href="linechartshome.html">Total Trends</a>
+        <a href="statechartshome.html">State Trends</a>
+      </div>
+      
+      <div class="content">
+        <h1>Prescription Data Trends and Target Reports</h1>
+        <p>
+          <div>
+            <input type="button" value="Go back!" onclick="history.back()">
+        </div>
+        <style>
+            .content {
+              padding-right: 20px;
+            }
+        </style>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 chart">
+                    <canvas id="myChart" width="400" height="200"></canvas>
+                </div>
+            </div>
+        </div>
+        <script src="js/linechartshome.js"></script>
+        </p>
+      </div>
+    <style>
+        .full-width {
+    width: 100vw;
+    margin: 0rem -50vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    background-size: cover !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center !important;
+    background-repeat: no-repeat;
+    z-index: 99;
+  }
+
+.image-banner {
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 10vh;   /* CHANGE NUMBER TO ADJUST HEIGHT */
+    padding-bottom: 20vh;   /* CHANGE NUMBER TO ADJUST HEIGHT */
+  }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    /* Style the side navigation */
+    .sidenav {
+      height: 100%;
+      width: 200px;
+      position:absolute;
+      z-index: 1;
+      top: 1;
+      left: 0;
+      background-color: #F48E20;
+      overflow-x: hidden;
+    }
+    
+    
+    /* Side navigation links */
+    .sidenav a {
+      color: white;
+      padding: 16px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    /* Change color on hover */
+    .sidenav a:hover {
+      background-color: #ddd;
+      color: #1B2F54;
+    }
+    
+    /* Style the content */
+    .content {
+      margin-left: 200px;
+      padding-left: 20px;
+    }
+    </style>
+    </head>
+    <body>
+    
+    
+</html>
