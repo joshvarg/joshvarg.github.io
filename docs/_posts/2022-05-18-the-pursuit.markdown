@@ -30,6 +30,7 @@ And with that last rule I have tomorrow's goals: theming jekyll and learning mar
 
 Goodnight 🌙
 
-[^1]: Although today is just an introduction rather than a real post, in the spirit of the pursuit I will start with learning if I used this semi-colon correctly.
+______
 
+[^1]: Although today is just an introduction rather than a real post, in the spirit of the pursuit I will start with learning if I used this semi-colon correctly.
 [^2]: I did not use the semi-colon correctly.
