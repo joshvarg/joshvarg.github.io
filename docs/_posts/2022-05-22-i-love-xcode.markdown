@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 	"I  XCode!"
+title: 	"I ❤️X XCode!"
 date: 	2022-05-22 01:20:40 -0700
 tags:		day3 xcode swift ios tracker
 ---
