@@ -1,0 +1,13 @@
+---
+layout:	post
+title:	"Not so Swift after all"
+date:		2022-05-23 22:47:00 -0700
+tags:		day5 xcode swift restart learning method
+---
+Well I hit the deadline of days to finish this project, and unfortunately I did not finish it. To be completely honest, I never really expected to finish in this time. The deadline was a way to induce motivation and it honestly worked. I felt like I did a lot more work than I would have done if I didn't have this fake deadline attached to the project. Furthermore I'm still unsatisfied with how the project is in its current state, meaning I'll probably work on it more later. It doesn't really sound like a good thing but this is perfect because it means I have more things to do and I won't be scrambling to figure out what to spend my day on.
+
+What I learned today however aren't technical things, but rather the fact that I have a much clearer path to learning a technology or a topic. When I first started this project I had a end goal in mind already, so rather than do tutorials and learn random philosophies around Swift and SwiftUI, I researched directly what I would need and wrote it straight in XCode. This helped me get a rough understanding of Swift as a whole because I was just throwing everything at the wall and seeing what stuck. While this took me to a certain point, I soon got extremely frustrated because of how convoluted and frankly, garbage, my code was becoming, leading me to completely delete the project and start anew. This time I did follow a tutorial but because I already had my feet wet in the language, I understood the syntax, the style, and the general structure of the tutorial. You might be wondering, why couldn't you just start with the tutorial in the first place? Well my problem with tutorials have always been that they are not in-depth enough. And this is no fault of whoever made the tutorial; they are just trying to briefly cover enough stuff to get you from point A to point B. No, this is the fault of the genre itself. The problem with tutorials is that the viewer is completely new to learning and there really is no feasible way to stop and explain what each and every step does and what the reason behind it is and why the style is the way it is. That would end up being the worst tutorial in the world. Unfortunately for me, that's the type of tutorial I need, and since none exist like that this method works perfectly. By throwing myself in the deep end and seeing all the stuff that doesn't work, it helps me to understand why the things that do work, work.
+
+At least that's how I understand it.
+
+Goodnight 🌙
