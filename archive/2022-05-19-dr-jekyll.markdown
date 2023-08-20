@@ -1,0 +1,17 @@
+---
+layout:	post
+title:	"Dr. Jekyll"
+date:		2022-05-19 22:12:25 -0700
+tags: day1 jekyll motivation
+---
+Today's topic was Jekyll theming. As with most things I try to learn, theres just so much that I didn't know I didn't know. Firstly, Jekyll not only uses Ruby but also a templating language called Liquid.
+
+Liquid isn't necessarily hard to learn especially since they have detailed documentation on all of the filters and tags used. Furthermore, it reminds me a bit of ERB or embedded ruby which I had used a lot of this past year.
+
+Another language I had to familiarize myself with was SASS or Syntactically Awesome Style Sheets. The only real difference from CSS from what I can tell is the variable declarations such as $var: value and certain rules.
+
+After running through the docs quickly for both of these languages I copied over the minima theme (default Jekyll theme) and looked through it to understand how I would make my own custom theme. By tomorrow my plan is to have finished the landing page, and the major aesthetics of the theme.
+
+On a deeper level I also learned that this whole project is going to be much harder than I thought. Though its only been a couple weeks since my semester ended, I have seemed to have forgotten that learning is not something that comes easy to me. Though it only seems like a couple of paragraphs above, all of that took me much longer than I wanted it to, maybe around 4-5 hours in total. This touches more on the point I said earlier about how I don't even know what I don't know, which is the most frustrating part about learning anything new. Just knowing what to ask in the first place is a time wasting ordeal for me and only when I figure that much out can I actually begin the real process of learning. Writing this now I feel extremely drained and slightly demotivated because I feel as if almost nothing was accomplished. Yet, that's something to be expected. I didn't think that I would be actually good at learning off the bat. It'll take time of course. Patience is just another thing I have to learn I suppose.
+
+Goodnight 🌙
